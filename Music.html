@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="auteur" content="Clement Deguise">
+    <meta name="description" content="Music page">
+    <link rel="stylesheet" href="Styles/Music.css">
+
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    
+
+    <title>Home</title>
+  </head>
+
+
+  <body>
+
+
+    <div class="playlist-menu" id="playlist-menu">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <!-- a tag : attribute for hyperlink -->
+      <a href="#">Rap</a>
+      <a href="#">Chill</a>
+      <a href="#">Reggae</a>
+      <a href="#">Electro</a>
+    </div>
+
+
+
+
+
+
+    <div id="banner-img">
+      <!--img src="Images/banner.jpg" alt="Banner" id="banner_img"-->
+      <div class="menu-button">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
+        <script src="Scripts/Music.js"></script>
+      </div>
+    </div>
+  
+    
+
+
+    <div id="main">
+
+      <div id="title">
+        <span>Playlists browser</span>
+      </div>
+
+      <div class="playlist-table">
+        <table class="table">
+          <caption>Reggae</caption>
+          <thead>
+            <tr>
+              <th>Row 1</th>
+              <th>Row 2</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>track 1</td>
+              <td>track 2</td>
+              <td><button class="deletion"><span>Delete</span></button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+    </div>
+
+  </body>
+
+
+
+</html>
